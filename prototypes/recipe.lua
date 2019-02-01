@@ -1,3 +1,8 @@
+data.raw.recipe["transport-belt"].ingredients =
+{
+	{"copper-plate", 1},
+	{"iron-gear-wheel", 2}
+}
 data:extend(
 {
 	{
@@ -62,9 +67,28 @@ data:extend(
 		  {"copper-plate", 10},
 		  {"steel-plate", 10},
 		  {"processing-unit", 10},
-		  {"battery", 5}
+		  {"battery", 5},
+		  {"asmg", 2}
 		},
 		result = "minigun"
   }
 }	
 )
+
+data.raw.recipe["submachine-gun"]["expensive"].ingredients =
+{
+	{"apistol", 1 },
+	{"iron-gear-wheel",10 },
+	{"iron-plate", 20},
+	{"copper-plate", 10}
+}
+data.raw.recipe["submachine-gun"]["normal"].ingredients =
+{
+	{"apistol", 1 },
+	{"iron-gear-wheel",5 }
+}
+data.raw.recipe["combat-shotgun"].ingredients =
+{
+	{"ashotgun",1 },
+	{"steel-plate",10 }
+}
