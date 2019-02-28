@@ -1,11 +1,11 @@
 {
     "name": "akimbo-weapons",
-    "version": "0.16.5",
+    "version": "0.17.1",
     "title": "Akimbo Vanilla Weapons",
     "author": "Braastos",
     "contact": "",
     "homepage": "",
-    "factorio_version": "0.16",
-    "dependencies": ["base >= 0.16"],
+    "factorio_version": "0.17",
+    "dependencies": ["base >= 0.17"],
     "description": "This mod adds Akimbo Weapons. It also adds a Minigun for the Late Game. Every Weapon needs to be first researched. The Minigun is based on Mete´s Minigun. The Minigun is WIP"
 }

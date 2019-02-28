@@ -5,7 +5,6 @@ data:extend(
 		name = "apistol",
 		icon = "__akimbo-weapons__/graphics/icons/pistol32.png",
 		icon_size = 32,
-		flags = {"goes-to-main-inventory"},
 		subgroup = "gun",
 		order = "a[basic-clips]-a[pistol]",
 		attack_parameters =
@@ -36,7 +35,6 @@ data:extend(
 		name = "ashotgun",
 		icon = "__akimbo-weapons__/graphics/icons/shotgun32.png",
 		icon_size = 32,
-		flags = {"goes-to-main-inventory"},
 		subgroup = "gun",
 		order = "b[shotgun]-a[basic]",
 		attack_parameters =
@@ -57,7 +55,6 @@ data:extend(
 		name = "acombat-shotgun",
 		icon = "__akimbo-weapons__/graphics/icons/combatshotgun32.png",
 		icon_size = 32,
-		flags = {"goes-to-main-inventory"},
 		subgroup = "gun",
 		order = "b[shotgun]-a[combat]",
 		attack_parameters =
@@ -84,7 +81,6 @@ data:extend(
 		name = "asmg",
 		icon = "__akimbo-weapons__/graphics/icons/submachinegun32.png",
 		icon_size = 32,
-		flags = {"goes-to-main-inventory"},
 		subgroup = "gun",
 		order = "a[basic-clips]-b[submachine-gun]",
 		attack_parameters =
@@ -115,7 +111,6 @@ data:extend(
 		name = "minigun",
 		icon = "__akimbo-weapons__/graphics/icons/minigun32.png",
 		icon_size = 32,
-		flags = {"goes-to-main-inventory"},
 		subgroup = "gun",
 		order = "a[basic-clips]-c[minigun]",
 		attack_parameters =
