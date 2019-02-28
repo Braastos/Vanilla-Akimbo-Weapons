@@ -1,8 +1,3 @@
-data.raw.recipe["transport-belt"].ingredients =
-{
-	{"copper-plate", 1},
-	{"iron-gear-wheel", 2}
-}
 data:extend(
 {
 	{

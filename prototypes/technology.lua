@@ -22,7 +22,7 @@ data:extend
 				count = 5,
 				ingredients =
 				{
-					{"science-pack-1", 1},
+					{"automation-science-pack", 1},
 					},
 				time = 20
 			},
@@ -46,10 +46,9 @@ data:extend
 				count = 25,
 				ingredients =
 				{
-					{"science-pack-1", 5},
-					{"science-pack-2", 5},
-					{"science-pack-3", 5},
-					{"military-science-pack", 10}
+					{"automation-science-pack", 5},
+					{"logistic-science-pack", 5},
+					{"military-science-pack", 15}
 				},
 				time = 20
 			}, 
@@ -73,10 +72,9 @@ data:extend
 				count = 25,
 				ingredients =
 				{
-					{"science-pack-1", 5},
-					{"science-pack-2", 5},
-					{"science-pack-3", 5},
-					{"military-science-pack", 10}
+					{"automation-science-pack", 5},
+					{"logistic-science-pack", 5},
+					{"military-science-pack", 15}
 				},
 				time = 20
 			},
@@ -100,10 +98,9 @@ data:extend
 				count = 50,
 				ingredients =
 				{
-					{"science-pack-1", 5},
-					{"science-pack-2", 5},
-					{"science-pack-3", 5},
-					{"military-science-pack", 10}
+					{"automation-science-pack", 5},
+					{"logistic-science-pack", 5},
+					{"military-science-pack", 15}
 				},
 				time = 20
 			}, 
@@ -121,18 +118,18 @@ data:extend
 			recipe = "minigun"
 		  }
 		},
-		prerequisites = {"military-4","acombat-shotgun_tech","artillery"},
+		prerequisites = {"military-4","acombat-shotgun_tech","artillery","space-science-pack"},
 		unit =
 		{
 		  count = 750,
 		  ingredients =
 		  {
-			{"science-pack-1", 5},
-			{"science-pack-2", 5},
-			{"science-pack-3", 5},
+			{"automation-science-pack", 5},
+			{"logistic-science-pack", 5},
+			{"chemical-science-pack", 5},
 			{"military-science-pack", 10},
 			{"production-science-pack", 1},
-			{"high-tech-science-pack", 1},
+			{"utility-science-pack", 1},
 			{"space-science-pack", 2},			
 		  },
 		  time = 60
