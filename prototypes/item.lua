@@ -1,3 +1,5 @@
+local sounds = require("__base__/prototypes/entity/demo-sounds.lua")
+
 data:extend(
 	{
 	  {
@@ -26,7 +28,7 @@ data:extend(
 		  },
 		  projectile_creation_distance = 1.125,
 		  range = 15,
-		  sound = make_light_gunshot_sounds(),
+		  sound = sounds.light_gunshot,
 		},
 		stack_size = 5
 	  },
@@ -102,7 +104,7 @@ data:extend(
 		  },
 		  projectile_creation_distance = 1.125,
 		  range = 18,
-		  sound = make_light_gunshot_sounds(),
+		  sound = sounds.light_gunshot,
 		},
 		stack_size = 5
 	  },
@@ -132,7 +134,7 @@ data:extend(
 		  },
 		  projectile_creation_distance = 1.125,
 		  range = 20,
-		  sound = make_light_gunshot_sounds(),
+		  sound = sounds.light_gunshot,
 		},
 		stack_size = 1
 	  }
