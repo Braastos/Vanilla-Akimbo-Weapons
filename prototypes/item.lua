@@ -1,4 +1,4 @@
-local sounds = require("__base__/prototypes/entity/demo-sounds.lua")
+local sounds = require("__base__/prototypes/entity/sounds.lua")
 
 data:extend(
 	{
@@ -48,7 +48,7 @@ data:extend(
 		  projectile_creation_distance = 1.125,
 		  range = 20,
 		  min_range = 1,
-		   
+		  sound = sounds.shotgun,
 		},
 		stack_size = 5
 	  },
@@ -68,13 +68,7 @@ data:extend(
 		  damage_modifier = 1.2,
 		  projectile_creation_distance = 1.125,
 		  range = 20,
-		  sound =
-		  {
-			{
-			  filename = "__base__/sound/pump-shotgun.ogg",
-			  volume = 0.5
-			}
-		  }
+		  sound = sounds.shotgun,
 		},
 		stack_size = 5
 	  },
@@ -104,7 +98,7 @@ data:extend(
 		  },
 		  projectile_creation_distance = 1.125,
 		  range = 18,
-		  sound = sounds.light_gunshot,
+		  sound = sounds.submachine_gunshot,
 		},
 		stack_size = 5
 	  },
