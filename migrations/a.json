@@ -1,0 +1,23 @@
+{
+    "item": [
+        ["apistol", "bra-akimbo-pistol"],
+        ["asmg", "bra-akimbo-submachine-gun"],
+        ["ashotgun", "bra-akimbo-shotgun"],
+        ["acombat-shotgun", "bra-akimbo-combat-shotgun"],
+        ["minigun", "bra-akimbo-minigun"]
+    ],
+    "recipe": [
+        ["apistol", "bra-akimbo-pistol"],
+        ["asmg", "bra-akimbo-submachine-gun"],
+        ["ashotgun", "bra-akimbo-shotgun"],
+        ["acombat-shotgun", "bra-akimbo-combat-shotgun"],
+        ["minigun", "bra-akimbo-minigun"]
+    ],
+    "technology": [
+        ["apistol_tech", "bra-akimbo-pistol_tech"],
+        ["asmg_tech", "bra-akimbo-submachine-gun_tech"],
+        ["ashotgun_tech", "bra-akimbo-shotgun_tech"],
+        ["acombat-shotgun_tech", "bra-akimbo-combat-shotgun_tech"],
+        ["minigun_tech", "bra-akimbo-minigun_tech"]
+    ]
+}
