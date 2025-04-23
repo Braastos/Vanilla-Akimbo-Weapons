@@ -99,7 +99,7 @@ if settings.startup["bra-akimbo-enable-upgrading-recipes"].value then
 	local pistol = {
 		type = "recipe",
 		name = "pistol",
-		enabled = false,
+		enabled = true,
 		energy_required = 10,
 		ingredients = {
 			ingedient_builder("copper-plate", 5),
